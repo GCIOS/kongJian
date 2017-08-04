@@ -15,6 +15,10 @@
 		20550EFB1F343F7800EE9B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20550EF91F343F7800EE9B2D /* LaunchScreen.storyboard */; };
 		20550F061F343F7800EE9B2D /* GCKongJianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F051F343F7800EE9B2D /* GCKongJianTests.m */; };
 		20550F111F343F7800EE9B2D /* GCKongJianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F101F343F7800EE9B2D /* GCKongJianUITests.m */; };
+		20550F211F34420C00EE9B2D /* LabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F201F34420C00EE9B2D /* LabelController.m */; };
+		20550F241F34421D00EE9B2D /* ButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F231F34421D00EE9B2D /* ButtonController.m */; };
+		20550F271F34423200EE9B2D /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F261F34423200EE9B2D /* ImageViewController.m */; };
+		20550F2A1F34425F00EE9B2D /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F291F34425F00EE9B2D /* TextFieldController.m */; };
 		7BF8C236FB12204590AAD817 /* Pods_GCKongJian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +57,14 @@
 		20550F0C1F343F7800EE9B2D /* GCKongJianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCKongJianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20550F101F343F7800EE9B2D /* GCKongJianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCKongJianUITests.m; sourceTree = "<group>"; };
 		20550F121F343F7800EE9B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20550F1F1F34420C00EE9B2D /* LabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelController.h; sourceTree = "<group>"; };
+		20550F201F34420C00EE9B2D /* LabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelController.m; sourceTree = "<group>"; };
+		20550F221F34421D00EE9B2D /* ButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonController.h; sourceTree = "<group>"; };
+		20550F231F34421D00EE9B2D /* ButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonController.m; sourceTree = "<group>"; };
+		20550F251F34423200EE9B2D /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		20550F261F34423200EE9B2D /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		20550F281F34425F00EE9B2D /* TextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
+		20550F291F34425F00EE9B2D /* TextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
 		24E67FE5D0E5591AE574A1BA /* Pods-GCKongJian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKongJian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian.debug.xcconfig"; sourceTree = "<group>"; };
 		9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCKongJian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +120,7 @@
 		20550EEA1F343F7800EE9B2D /* GCKongJian */ = {
 			isa = PBXGroup;
 			children = (
+				20550F1E1F3441D600EE9B2D /* 控件 */,
 				20550EEE1F343F7800EE9B2D /* AppDelegate.h */,
 				20550EEF1F343F7800EE9B2D /* AppDelegate.m */,
 				20550EF11F343F7800EE9B2D /* ViewController.h */,
@@ -145,6 +158,21 @@
 				20550F121F343F7800EE9B2D /* Info.plist */,
 			);
 			path = GCKongJianUITests;
+			sourceTree = "<group>";
+		};
+		20550F1E1F3441D600EE9B2D /* 控件 */ = {
+			isa = PBXGroup;
+			children = (
+				20550F1F1F34420C00EE9B2D /* LabelController.h */,
+				20550F201F34420C00EE9B2D /* LabelController.m */,
+				20550F221F34421D00EE9B2D /* ButtonController.h */,
+				20550F231F34421D00EE9B2D /* ButtonController.m */,
+				20550F251F34423200EE9B2D /* ImageViewController.h */,
+				20550F261F34423200EE9B2D /* ImageViewController.m */,
+				20550F281F34425F00EE9B2D /* TextFieldController.h */,
+				20550F291F34425F00EE9B2D /* TextFieldController.m */,
+			);
+			name = "控件";
 			sourceTree = "<group>";
 		};
 		4A984B1921A7765824CA1261 /* Pods */ = {
@@ -351,8 +379,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20550F271F34423200EE9B2D /* ImageViewController.m in Sources */,
+				20550F211F34420C00EE9B2D /* LabelController.m in Sources */,
 				20550EF31F343F7800EE9B2D /* ViewController.m in Sources */,
+				20550F2A1F34425F00EE9B2D /* TextFieldController.m in Sources */,
 				20550EF01F343F7800EE9B2D /* AppDelegate.m in Sources */,
+				20550F241F34421D00EE9B2D /* ButtonController.m in Sources */,
 				20550EED1F343F7800EE9B2D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -595,6 +627,7 @@
 				20550F171F343F7800EE9B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20550F181F343F7800EE9B2D /* Build configuration list for PBXNativeTarget "GCKongJianTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +636,7 @@
 				20550F1A1F343F7800EE9B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20550F1B1F343F7800EE9B2D /* Build configuration list for PBXNativeTarget "GCKongJianUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +645,7 @@
 				20550F1D1F343F7800EE9B2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
