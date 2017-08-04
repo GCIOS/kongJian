@@ -1,0 +1,6 @@
+framework module Pods_GCKongJian {
+  umbrella header "Pods-GCKongJian-umbrella.h"
+
+  export *
+  module * { export * }
+}

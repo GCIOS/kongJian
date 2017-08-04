@@ -15,6 +15,7 @@
 		20550EFB1F343F7800EE9B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20550EF91F343F7800EE9B2D /* LaunchScreen.storyboard */; };
 		20550F061F343F7800EE9B2D /* GCKongJianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F051F343F7800EE9B2D /* GCKongJianTests.m */; };
 		20550F111F343F7800EE9B2D /* GCKongJianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F101F343F7800EE9B2D /* GCKongJianUITests.m */; };
+		7BF8C236FB12204590AAD817 /* Pods_GCKongJian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		124801C87AB73F07CF34ECD5 /* Pods-GCKongJian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKongJian.release.xcconfig"; path = "Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian.release.xcconfig"; sourceTree = "<group>"; };
 		20550EE81F343F7800EE9B2D /* GCKongJian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCKongJian.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20550EEC1F343F7800EE9B2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20550EEE1F343F7800EE9B2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		20550F0C1F343F7800EE9B2D /* GCKongJianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCKongJianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20550F101F343F7800EE9B2D /* GCKongJianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCKongJianUITests.m; sourceTree = "<group>"; };
 		20550F121F343F7800EE9B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24E67FE5D0E5591AE574A1BA /* Pods-GCKongJian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKongJian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian.debug.xcconfig"; sourceTree = "<group>"; };
+		9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCKongJian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BF8C236FB12204590AAD817 /* Pods_GCKongJian.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				20550F041F343F7800EE9B2D /* GCKongJianTests */,
 				20550F0F1F343F7800EE9B2D /* GCKongJianUITests */,
 				20550EE91F343F7800EE9B2D /* Products */,
+				4A984B1921A7765824CA1261 /* Pods */,
+				DFD8C936FE197EB72E95E1E3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = GCKongJianUITests;
 			sourceTree = "<group>";
 		};
+		4A984B1921A7765824CA1261 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24E67FE5D0E5591AE574A1BA /* Pods-GCKongJian.debug.xcconfig */,
+				124801C87AB73F07CF34ECD5 /* Pods-GCKongJian.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DFD8C936FE197EB72E95E1E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20550F151F343F7800EE9B2D /* Build configuration list for PBXNativeTarget "GCKongJian" */;
 			buildPhases = (
+				CE0F91EF9D81850202EE3C23 /* [CP] Check Pods Manifest.lock */,
 				20550EE41F343F7800EE9B2D /* Sources */,
 				20550EE51F343F7800EE9B2D /* Frameworks */,
 				20550EE61F343F7800EE9B2D /* Resources */,
+				3140C0324D06FF60D9450994 /* [CP] Embed Pods Frameworks */,
+				42A0CA662D0FDC3988B7EB0A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3140C0324D06FF60D9450994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A0CA662D0FDC3988B7EB0A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE0F91EF9D81850202EE3C23 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20550EE41F343F7800EE9B2D /* Sources */ = {
@@ -425,6 +500,7 @@
 		};
 		20550F161F343F7800EE9B2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24E67FE5D0E5591AE574A1BA /* Pods-GCKongJian.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V29PA8GQU3;
@@ -438,6 +514,7 @@
 		};
 		20550F171F343F7800EE9B2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124801C87AB73F07CF34ECD5 /* Pods-GCKongJian.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V29PA8GQU3;
