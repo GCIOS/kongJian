@@ -1,5 +1,5 @@
 //
-//  TextFieldController.h
+//  TextFieldCell.h
 //  GCKongJian
 //
 //  Created by 高崇 on 2017/8/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TextFieldController : UIViewController
+@interface TextFieldCell : UITableViewCell
 
 @end

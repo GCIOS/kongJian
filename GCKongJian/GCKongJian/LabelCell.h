@@ -1,5 +1,5 @@
 //
-//  LabelController.h
+//  LabelCell.h
 //  GCKongJian
 //
 //  Created by 高崇 on 2017/8/4.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LabelController : UIViewController
+@interface LabelCell : UITableViewCell
 
 @end

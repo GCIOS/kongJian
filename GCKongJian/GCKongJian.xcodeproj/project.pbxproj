@@ -15,10 +15,15 @@
 		20550EFB1F343F7800EE9B2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20550EF91F343F7800EE9B2D /* LaunchScreen.storyboard */; };
 		20550F061F343F7800EE9B2D /* GCKongJianTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F051F343F7800EE9B2D /* GCKongJianTests.m */; };
 		20550F111F343F7800EE9B2D /* GCKongJianUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F101F343F7800EE9B2D /* GCKongJianUITests.m */; };
-		20550F211F34420C00EE9B2D /* LabelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F201F34420C00EE9B2D /* LabelController.m */; };
-		20550F241F34421D00EE9B2D /* ButtonController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F231F34421D00EE9B2D /* ButtonController.m */; };
-		20550F271F34423200EE9B2D /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F261F34423200EE9B2D /* ImageViewController.m */; };
-		20550F2A1F34425F00EE9B2D /* TextFieldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F291F34425F00EE9B2D /* TextFieldController.m */; };
+		20550F2E1F34440100EE9B2D /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F2D1F34440100EE9B2D /* UIColor+Extension.m */; };
+		20550F321F3447BC00EE9B2D /* LabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F311F3447BC00EE9B2D /* LabelCell.m */; };
+		20550F351F3449D800EE9B2D /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F341F3449D800EE9B2D /* ButtonCell.m */; };
+		20550F381F344A2D00EE9B2D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F371F344A2D00EE9B2D /* TableViewCell.m */; };
+		20550F3B1F344C0200EE9B2D /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3A1F344C0200EE9B2D /* ImageViewCell.m */; };
+		20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3D1F344E0900EE9B2D /* TextFieldCell.m */; };
+		20CE497C1F3AE5D500BD8518 /* FSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE497B1F3AE5D500BD8518 /* FSTextView.m */; };
+		20CE497F1F3AE60200BD8518 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE497E1F3AE60200BD8518 /* TextViewCell.m */; };
+		20CE49821F3AE90400BD8518 /* NSArray+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE49811F3AE90400BD8518 /* NSArray+AttributedString.m */; };
 		7BF8C236FB12204590AAD817 /* Pods_GCKongJian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,14 +62,25 @@
 		20550F0C1F343F7800EE9B2D /* GCKongJianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GCKongJianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20550F101F343F7800EE9B2D /* GCKongJianUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCKongJianUITests.m; sourceTree = "<group>"; };
 		20550F121F343F7800EE9B2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		20550F1F1F34420C00EE9B2D /* LabelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelController.h; sourceTree = "<group>"; };
-		20550F201F34420C00EE9B2D /* LabelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelController.m; sourceTree = "<group>"; };
-		20550F221F34421D00EE9B2D /* ButtonController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonController.h; sourceTree = "<group>"; };
-		20550F231F34421D00EE9B2D /* ButtonController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonController.m; sourceTree = "<group>"; };
-		20550F251F34423200EE9B2D /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
-		20550F261F34423200EE9B2D /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
-		20550F281F34425F00EE9B2D /* TextFieldController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldController.h; sourceTree = "<group>"; };
-		20550F291F34425F00EE9B2D /* TextFieldController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldController.m; sourceTree = "<group>"; };
+		20550F2C1F34440100EE9B2D /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		20550F2D1F34440100EE9B2D /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		20550F2F1F34444800EE9B2D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		20550F301F3447BC00EE9B2D /* LabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelCell.h; sourceTree = "<group>"; };
+		20550F311F3447BC00EE9B2D /* LabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelCell.m; sourceTree = "<group>"; };
+		20550F331F3449D800EE9B2D /* ButtonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		20550F341F3449D800EE9B2D /* ButtonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; wrapsLines = 0; };
+		20550F361F344A2D00EE9B2D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		20550F371F344A2D00EE9B2D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		20550F391F344C0200EE9B2D /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		20550F3A1F344C0200EE9B2D /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		20550F3C1F344E0900EE9B2D /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
+		20550F3D1F344E0900EE9B2D /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		20CE497A1F3AE5D500BD8518 /* FSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTextView.h; sourceTree = "<group>"; };
+		20CE497B1F3AE5D500BD8518 /* FSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTextView.m; sourceTree = "<group>"; };
+		20CE497D1F3AE60200BD8518 /* TextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
+		20CE497E1F3AE60200BD8518 /* TextViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewCell.m; sourceTree = "<group>"; };
+		20CE49801F3AE90400BD8518 /* NSArray+AttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+AttributedString.h"; sourceTree = "<group>"; };
+		20CE49811F3AE90400BD8518 /* NSArray+AttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+AttributedString.m"; sourceTree = "<group>"; };
 		24E67FE5D0E5591AE574A1BA /* Pods-GCKongJian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCKongJian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GCKongJian/Pods-GCKongJian.debug.xcconfig"; sourceTree = "<group>"; };
 		9A919EEE35EA6EE5F90E2174 /* Pods_GCKongJian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCKongJian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -120,6 +136,7 @@
 		20550EEA1F343F7800EE9B2D /* GCKongJian */ = {
 			isa = PBXGroup;
 			children = (
+				20550F2B1F3443EE00EE9B2D /* 工具 */,
 				20550F1E1F3441D600EE9B2D /* 控件 */,
 				20550EEE1F343F7800EE9B2D /* AppDelegate.h */,
 				20550EEF1F343F7800EE9B2D /* AppDelegate.m */,
@@ -138,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				20550EEC1F343F7800EE9B2D /* main.m */,
+				20550F2F1F34444800EE9B2D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,16 +181,33 @@
 		20550F1E1F3441D600EE9B2D /* 控件 */ = {
 			isa = PBXGroup;
 			children = (
-				20550F1F1F34420C00EE9B2D /* LabelController.h */,
-				20550F201F34420C00EE9B2D /* LabelController.m */,
-				20550F221F34421D00EE9B2D /* ButtonController.h */,
-				20550F231F34421D00EE9B2D /* ButtonController.m */,
-				20550F251F34423200EE9B2D /* ImageViewController.h */,
-				20550F261F34423200EE9B2D /* ImageViewController.m */,
-				20550F281F34425F00EE9B2D /* TextFieldController.h */,
-				20550F291F34425F00EE9B2D /* TextFieldController.m */,
+				20550F301F3447BC00EE9B2D /* LabelCell.h */,
+				20550F311F3447BC00EE9B2D /* LabelCell.m */,
+				20550F331F3449D800EE9B2D /* ButtonCell.h */,
+				20550F341F3449D800EE9B2D /* ButtonCell.m */,
+				20550F391F344C0200EE9B2D /* ImageViewCell.h */,
+				20550F3A1F344C0200EE9B2D /* ImageViewCell.m */,
+				20550F3C1F344E0900EE9B2D /* TextFieldCell.h */,
+				20550F3D1F344E0900EE9B2D /* TextFieldCell.m */,
+				20CE497D1F3AE60200BD8518 /* TextViewCell.h */,
+				20CE497E1F3AE60200BD8518 /* TextViewCell.m */,
+				20550F361F344A2D00EE9B2D /* TableViewCell.h */,
+				20550F371F344A2D00EE9B2D /* TableViewCell.m */,
 			);
 			name = "控件";
+			sourceTree = "<group>";
+		};
+		20550F2B1F3443EE00EE9B2D /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				20CE497A1F3AE5D500BD8518 /* FSTextView.h */,
+				20CE497B1F3AE5D500BD8518 /* FSTextView.m */,
+				20550F2C1F34440100EE9B2D /* UIColor+Extension.h */,
+				20550F2D1F34440100EE9B2D /* UIColor+Extension.m */,
+				20CE49801F3AE90400BD8518 /* NSArray+AttributedString.h */,
+				20CE49811F3AE90400BD8518 /* NSArray+AttributedString.m */,
+			);
+			name = "工具";
 			sourceTree = "<group>";
 		};
 		4A984B1921A7765824CA1261 /* Pods */ = {
@@ -379,13 +414,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20550F271F34423200EE9B2D /* ImageViewController.m in Sources */,
-				20550F211F34420C00EE9B2D /* LabelController.m in Sources */,
+				20CE497C1F3AE5D500BD8518 /* FSTextView.m in Sources */,
+				20550F351F3449D800EE9B2D /* ButtonCell.m in Sources */,
+				20550F321F3447BC00EE9B2D /* LabelCell.m in Sources */,
+				20550F381F344A2D00EE9B2D /* TableViewCell.m in Sources */,
+				20550F3B1F344C0200EE9B2D /* ImageViewCell.m in Sources */,
 				20550EF31F343F7800EE9B2D /* ViewController.m in Sources */,
-				20550F2A1F34425F00EE9B2D /* TextFieldController.m in Sources */,
+				20550F2E1F34440100EE9B2D /* UIColor+Extension.m in Sources */,
+				20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */,
 				20550EF01F343F7800EE9B2D /* AppDelegate.m in Sources */,
-				20550F241F34421D00EE9B2D /* ButtonController.m in Sources */,
+				20CE497F1F3AE60200BD8518 /* TextViewCell.m in Sources */,
 				20550EED1F343F7800EE9B2D /* main.m in Sources */,
+				20CE49821F3AE90400BD8518 /* NSArray+AttributedString.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +576,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V29PA8GQU3;
+				GCC_PREFIX_HEADER = GCKongJian/PrefixHeader.pch;
 				INFOPLIST_FILE = GCKongJian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -550,6 +591,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V29PA8GQU3;
+				GCC_PREFIX_HEADER = GCKongJian/PrefixHeader.pch;
 				INFOPLIST_FILE = GCKongJian/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

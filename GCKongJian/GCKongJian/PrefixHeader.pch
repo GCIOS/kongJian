@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  GCKongJian
+//
+//  Created by 高崇 on 2017/8/4.
+//  Copyright © 2017年 LieLvWang. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "UIColor+Extension.h"
+#import <Masonry/Masonry.h>
+#import "NSArray+AttributedString.h"
+
+// 懒加载
+#define GC_LAZY(object, assignment) (object = object ?: assignment)
+
+#endif /* PrefixHeader_pch */
