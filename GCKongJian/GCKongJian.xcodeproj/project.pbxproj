@@ -21,6 +21,8 @@
 		20550F381F344A2D00EE9B2D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F371F344A2D00EE9B2D /* TableViewCell.m */; };
 		20550F3B1F344C0200EE9B2D /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3A1F344C0200EE9B2D /* ImageViewCell.m */; };
 		20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3D1F344E0900EE9B2D /* TextFieldCell.m */; };
+		20A858E41F3D50B900E7BD85 /* HeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */; };
+		20CE2A971F3C510200750908 /* GCMagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE2A961F3C510200750908 /* GCMagicView.m */; };
 		20CE497C1F3AE5D500BD8518 /* FSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE497B1F3AE5D500BD8518 /* FSTextView.m */; };
 		20CE497F1F3AE60200BD8518 /* TextViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE497E1F3AE60200BD8518 /* TextViewCell.m */; };
 		20CE49821F3AE90400BD8518 /* NSArray+AttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE49811F3AE90400BD8518 /* NSArray+AttributedString.m */; };
@@ -75,6 +77,10 @@
 		20550F3A1F344C0200EE9B2D /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
 		20550F3C1F344E0900EE9B2D /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		20550F3D1F344E0900EE9B2D /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		20A858E21F3D50B900E7BD85 /* HeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFooterView.h; sourceTree = "<group>"; };
+		20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderFooterView.m; sourceTree = "<group>"; };
+		20CE2A951F3C510200750908 /* GCMagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCMagicView.h; sourceTree = "<group>"; };
+		20CE2A961F3C510200750908 /* GCMagicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCMagicView.m; sourceTree = "<group>"; };
 		20CE497A1F3AE5D500BD8518 /* FSTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSTextView.h; sourceTree = "<group>"; };
 		20CE497B1F3AE5D500BD8518 /* FSTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSTextView.m; sourceTree = "<group>"; };
 		20CE497D1F3AE60200BD8518 /* TextViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewCell.h; sourceTree = "<group>"; };
@@ -142,6 +148,8 @@
 				20550EEF1F343F7800EE9B2D /* AppDelegate.m */,
 				20550EF11F343F7800EE9B2D /* ViewController.h */,
 				20550EF21F343F7800EE9B2D /* ViewController.m */,
+				20CE2A951F3C510200750908 /* GCMagicView.h */,
+				20CE2A961F3C510200750908 /* GCMagicView.m */,
 				20550EF41F343F7800EE9B2D /* Main.storyboard */,
 				20550EF71F343F7800EE9B2D /* Assets.xcassets */,
 				20550EF91F343F7800EE9B2D /* LaunchScreen.storyboard */,
@@ -193,6 +201,8 @@
 				20CE497E1F3AE60200BD8518 /* TextViewCell.m */,
 				20550F361F344A2D00EE9B2D /* TableViewCell.h */,
 				20550F371F344A2D00EE9B2D /* TableViewCell.m */,
+				20A858E21F3D50B900E7BD85 /* HeaderFooterView.h */,
+				20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */,
 			);
 			name = "控件";
 			sourceTree = "<group>";
@@ -414,6 +424,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20A858E41F3D50B900E7BD85 /* HeaderFooterView.m in Sources */,
 				20CE497C1F3AE5D500BD8518 /* FSTextView.m in Sources */,
 				20550F351F3449D800EE9B2D /* ButtonCell.m in Sources */,
 				20550F321F3447BC00EE9B2D /* LabelCell.m in Sources */,
@@ -421,6 +432,7 @@
 				20550F3B1F344C0200EE9B2D /* ImageViewCell.m in Sources */,
 				20550EF31F343F7800EE9B2D /* ViewController.m in Sources */,
 				20550F2E1F34440100EE9B2D /* UIColor+Extension.m in Sources */,
+				20CE2A971F3C510200750908 /* GCMagicView.m in Sources */,
 				20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */,
 				20550EF01F343F7800EE9B2D /* AppDelegate.m in Sources */,
 				20CE497F1F3AE60200BD8518 /* TextViewCell.m in Sources */,

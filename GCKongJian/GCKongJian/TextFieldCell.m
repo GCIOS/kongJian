@@ -37,7 +37,7 @@
                               };
         
         UITextField *view = [[UITextField alloc] init];
-        view.attributedText = [@[dic] attributedString];
+        view.attributedPlaceholder = [@[dic] attributedString];
         view.font = [UIFont systemFontOfSize:14];
         view.clearButtonMode = UITextFieldViewModeWhileEditing;
         view.returnKeyType = UIReturnKeyDone;
