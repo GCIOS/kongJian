@@ -57,10 +57,7 @@
         [self.contentView addSubview:view];
         view;
     }));
-    
-    
-
-    
+  
 }
 
 - (UIView *)lineView
