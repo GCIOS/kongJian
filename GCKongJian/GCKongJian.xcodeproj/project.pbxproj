@@ -21,6 +21,7 @@
 		20550F381F344A2D00EE9B2D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F371F344A2D00EE9B2D /* TableViewCell.m */; };
 		20550F3B1F344C0200EE9B2D /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3A1F344C0200EE9B2D /* ImageViewCell.m */; };
 		20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20550F3D1F344E0900EE9B2D /* TextFieldCell.m */; };
+		20785994204F822100CDF0A4 /* CollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20785993204F822100CDF0A4 /* CollectionView.m */; };
 		20A858E41F3D50B900E7BD85 /* HeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */; };
 		20CE2A971F3C510200750908 /* GCMagicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE2A961F3C510200750908 /* GCMagicView.m */; };
 		20CE497C1F3AE5D500BD8518 /* FSTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE497B1F3AE5D500BD8518 /* FSTextView.m */; };
@@ -77,6 +78,8 @@
 		20550F3A1F344C0200EE9B2D /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
 		20550F3C1F344E0900EE9B2D /* TextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldCell.h; sourceTree = "<group>"; };
 		20550F3D1F344E0900EE9B2D /* TextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldCell.m; sourceTree = "<group>"; };
+		20785992204F822100CDF0A4 /* CollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectionView.h; sourceTree = "<group>"; };
+		20785993204F822100CDF0A4 /* CollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectionView.m; sourceTree = "<group>"; };
 		20A858E21F3D50B900E7BD85 /* HeaderFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderFooterView.h; sourceTree = "<group>"; };
 		20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderFooterView.m; sourceTree = "<group>"; };
 		20CE2A951F3C510200750908 /* GCMagicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCMagicView.h; sourceTree = "<group>"; };
@@ -203,6 +206,8 @@
 				20550F371F344A2D00EE9B2D /* TableViewCell.m */,
 				20A858E21F3D50B900E7BD85 /* HeaderFooterView.h */,
 				20A858E31F3D50B900E7BD85 /* HeaderFooterView.m */,
+				20785992204F822100CDF0A4 /* CollectionView.h */,
+				20785993204F822100CDF0A4 /* CollectionView.m */,
 			);
 			name = "控件";
 			sourceTree = "<group>";
@@ -436,6 +441,7 @@
 				20550F3E1F344E0900EE9B2D /* TextFieldCell.m in Sources */,
 				20550EF01F343F7800EE9B2D /* AppDelegate.m in Sources */,
 				20CE497F1F3AE60200BD8518 /* TextViewCell.m in Sources */,
+				20785994204F822100CDF0A4 /* CollectionView.m in Sources */,
 				20550EED1F343F7800EE9B2D /* main.m in Sources */,
 				20CE49821F3AE90400BD8518 /* NSArray+AttributedString.m in Sources */,
 			);
